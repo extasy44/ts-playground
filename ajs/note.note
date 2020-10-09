@@ -1,0 +1,35 @@
+// es5 & 6 : let, const, destructuring, object properties, template string, Symbol, arrow functions,
+es7 > .includes() , x**2
+es8 > .padStart() .padEnd() object.values Object.entries // Object.keys
+
+const obj = { username0: 'santa', usename1: 'rudolf', username2:'Grinch' }
+
+Object.keys(obj).forEach((key, index) => {
+  console.log(key + obj[key])
+})
+
+Object.values(obj).foreach(value => {
+  console.log(value);
+})
+
+es9 + es8
+Async await
+
+es10 array.flat(2) //flatten array by depth ; array.flatMap( callback), trimStart(), trimEnd(), formEntries
+ try catch // no (e) 
+
+Loops
+ for while do forEach 
+
+ for of //iterating - arrays, strings
+ for(item of basket) {
+   console.log(item)
+ }
+
+ for in // enumerating - objects 
+ for(item in basketDetail) {
+   console.log(item)
+ }
+
+ JS Runtime
+ Callstack,    Web Apis,   (event loop) Callback Queue
