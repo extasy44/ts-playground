@@ -1,13 +1,9 @@
 {
   "users": [
     {
-      "name": "myname",
-      "age": 22,
       "id": 1
     },
     {
-      "name": "Jiwoo",
-      "age": 2,
       "id": 2
     },
     {
