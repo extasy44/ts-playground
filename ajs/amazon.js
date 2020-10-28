@@ -45,6 +45,7 @@ function buyItem(user) {
   const itemsInCart = user.cart;
   return Object.assign({}, user, { purchases: itemsInCart });
 }
+
 function emptyUserCart(user) {
   history1.push(user);
   return Object.assign({}, user, { cart: [] });
